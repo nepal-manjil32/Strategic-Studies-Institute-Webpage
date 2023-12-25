@@ -1,0 +1,116 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  background-color: rgb(255, 255, 255);
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-around;
+  margin-bottom: 200px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+}
+
+#copyright{
+  text-align: center;
+  color: rgb(146, 96, 2);
+}
+
+.title{
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+
+.hello{
+  color: rgb(146, 96, 2);
+}
+
+.card{
+  width: 45%;
+}
+
+.tile-image{
+  float: left;
+  height: 200px;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.left {
+  float: left;
+  margin: 0px;
+}
+
+.right {
+  float: right;
+  margin: 0px;
+  padding: 0px;
+}
+
+.upper-titles{
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  color: rgb(146, 96, 2);
+}
+.logo{
+  width: 100%;
+  float: left;
+  display: flex;
+  flex-grow: 0;
+  flex-basis: 180px;
+}
+
+.Header{
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.lowerpart{
+  color:rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(150, 114, 48);
+  border: 1px;
+  padding: 50px;
+}
+
+.contactinfo{
+  float:left;
+}
+
+.sociallinks{
+  text-align:right;
+}
+
+.upper-titles a{
+  color: rgb(146, 96, 2);
+}
